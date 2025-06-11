@@ -1,0 +1,20 @@
+extraction_task:
+    description: >
+        Extract details from the given query
+    expected_output: >
+        A list of details extracted from the query. Trip Destination and Trip Duration are mandatory.
+    agent: detail_extractor
+
+attractions_search_task:
+    description: >
+        Search for attractions in the given location
+    expected_output: >
+        A list of attractions in the given location with details about them like the name, description, timing, and location.
+    agent: attractions_searcher
+
+trip_plan_task:
+    description: >
+        Plan a trip to the given location by taking the requirements of the user and the results from the attractions search.
+    expected_output: >
+        A detailed plan of the trip with the day wise itinerary with detailed timings for each day.
+    agent: trip_planner
