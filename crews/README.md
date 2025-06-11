@@ -2,7 +2,7 @@
 
 ## Setup
 
-Navigate to the flows directory:
+Navigate to the crews directory:
 
 ```bash
 cd crews
