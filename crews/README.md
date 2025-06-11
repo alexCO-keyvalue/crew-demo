@@ -1,11 +1,11 @@
-# Flows
+# Crews
 
 ## Setup
 
 Navigate to the flows directory:
 
 ```bash
-cd flows
+cd crews
 ```
 
 Create a .env file and add your desired model api keys
